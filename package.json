@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "@prisma/client": "^2.30.2",
@@ -16,8 +17,10 @@
     "swr": "^1.0.0"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^8.0.1",
     "@types/react": "17.0.19",
     "autoprefixer": "^10.3.3",
+    "cypress": "^8.3.1",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "postcss": "^8.3.6",
